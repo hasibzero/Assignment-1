@@ -1,4 +1,5 @@
 *{
+    
     padding: 0;
     margin: 0;
     font-family: "Inter", sans-serif;
@@ -35,6 +36,7 @@
     padding: 14px 16px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 .hero-container{
     
@@ -87,6 +89,7 @@
     background-color: transparent;
     border: 1px solid white;
     margin-left: 16px;
+    cursor: pointer;
 }
 .container1{
     text-align: center;
@@ -125,4 +128,57 @@ main section .main-card{
 .common-style{
     color: #627382;
     font-size: 16px;
+}
+.container2{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    margin-top: 120px;
+}
+.container2 .left-part{
+    border-radius: 8px;
+}
+.container2 .right-part{
+    max-width: 600px;
+}
+.container2 .right-part .the-solution{
+    color: #469165;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 16px;
+    
+}
+.container2 .right-part h2{
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+.container2 .right-part div{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.challange{
+    background-color: #F7F6F2;
+    border-radius: 12px;
+    text-align: center;
+    
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-top: 120px;
+}
+.challange h2{
+    font-size: 40px;
+    padding-bottom: 16px;
+}
+.challange div button{
+    margin-top: 24px;
+    margin-bottom: 16px;
+    box-shadow: 0px 5px 10px 3px rgba(0, 0, 0, 0.11);
+    
+}
+.challange  .fixed-width{
+    
+    max-width: 640px;
+    margin: 0 auto;
 }
